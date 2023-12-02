@@ -142,10 +142,10 @@
                 <div class="col-xl-5 offset-xl-1 col-md-6">
                     <div class="about_info">
                         <div class="section_title">
-                            <span class="sub_heading">👋 Доброго времени суток, Илья!
+                            <span class="sub_heading">👋 Доброго времени суток!
                             </span>
-                            <h3>Меня зовут Илья Андрианов. 
-                                Я опытный репетитор по информатике и программированию на Python 🐍. 
+                            <h3>Меня зовут Илья Андрианов.
+                                Я опытный репетитор по информатике и программированию<br> на Python 🐍. 
                                 Готов помочь вам успешно сдать ЕГЭ и достичь высоких результатов!
                                 <br>
                             </h3>
@@ -395,9 +395,8 @@
             margin: 10px;
             padding: 10px 15px;
             font-size: 20px;
-            color: white;
+            color: #477fb8;
             cursor: pointer;
-            text-decoration: revert-layer;
         }
 
         
@@ -424,13 +423,19 @@
         }
         }
 
+
+        @media (max-width: 580px) {
+            .original-link, .new-link{
+                font-size: 15px;
+            }}
+
     </style>
 
 
 <section id="prices" class="section-container original">
     <div class="price-btns">
-    <a class="original-link" href="#prices" onclick="changeBackground('original')">индивидуальные</a>
-    <a class="new-link" href="#prices" onclick="changeBackground('new')">групповые</a>
+    <a class="grr-list-links original-link" href="#prices" onclick="changeBackground('original')">индивидуальные</a>
+    <a class="grr-list-links new-link" href="#prices" onclick="changeBackground('new')">групповые</a>
 </div>
 </section>
 
